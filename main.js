@@ -1,7 +1,10 @@
-let objekt = {
-  name: "Karina",
-  age: 14,
-  Notes: [4, 5, 6, 5.5, 5, 4.5, 6],
-};
+let a = 5;
+let b = 11;
 
-summa(`Notes`);
+let n1 = Number(a);
+let n2 = Number(b);
+
+function summa(a, b) {
+  let r = a + b;
+  console.log(r);
+}
